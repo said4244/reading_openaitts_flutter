@@ -1,0 +1,22 @@
+# Core LiveKit dependencies
+livekit>=0.13.1
+livekit-agents>=0.10.1
+livekit-plugins-openai>=0.10.1
+
+# OpenAI for TTS
+openai>=1.23.0
+
+# Server dependencies
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-dotenv>=1.0.0
+
+# Audio processing (optional, for advanced features)
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Async HTTP
+aiohttp>=3.9.0
+
+# Utilities
+python-jose[cryptography]>=3.3.0
